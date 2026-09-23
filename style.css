@@ -1,0 +1,214 @@
+```css
+/* Basic settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+
+/* Navigation Bar */
+nav {
+    background-color: #243b55;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 8%;
+}
+
+nav h2 {
+    font-size: 22px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #9dd9ff;
+}
+
+
+/* Home Section */
+.home {
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+    padding: 50px 10%;
+    background-color: white;
+}
+
+.home-text {
+    max-width: 550px;
+}
+
+.home-text h1 {
+    font-size: 40px;
+    color: #243b55;
+    margin-bottom: 10px;
+}
+
+.home-text h3 {
+    color: #4b6584;
+    margin-bottom: 15px;
+}
+
+.home-text p {
+    margin-bottom: 25px;
+}
+
+
+/* Profile Photo */
+.photo img {
+    width: 220px;
+    height: 220px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 5px solid #243b55;
+}
+
+
+/* Button */
+.button {
+    display: inline-block;
+
+    background-color: #243b55;
+    color: white;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #4b6584;
+}
+
+
+/* General Sections */
+section {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #243b55;
+    margin-bottom: 20px;
+}
+
+
+/* Skills */
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills div {
+    background-color: white;
+    padding: 12px 25px;
+    border: 1px solid #ccd6e0;
+    border-radius: 5px;
+}
+
+
+/* Projects */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: white;
+
+    width: 350px;
+    padding: 25px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #243b55;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+
+/* Achievement */
+#achievement {
+    background-color: white;
+}
+
+
+/* Contact */
+#contact {
+    background-color: #eef2f6;
+}
+
+
+/* Footer */
+footer {
+    background-color: #243b55;
+    color: white;
+
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Mobile Screen */
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-text h1 {
+        font-size: 30px;
+    }
+}
+```
